@@ -1,0 +1,77 @@
+-----------------------------------Data Types---------------------------------------
+
+JavaScript categorizes all data into two main types: primitive and non-primitive
+
+Primitive Data Types:
+
+Primitive data types represent single, immutable values. When you copy a primitive value, a new, independent copy is created
+
+1.String
+2.biginit
+3.number
+4.null
+5.undefined
+6.Symbol
+7.boolean
+
+1.String:
+    Represents textual data. A string is a sequence of characters enclosed in single quotes ('...'), double quotes ("..."), or backticks (`...`).
+    Examples:
+        let name = "John";
+        let message = 'Hello World!';
+
+2.biginit:
+    Represents whole numbers larger than the maximum value a number can hold (2^53−1). A bigint is created by appending n to an integer.
+    Examples:
+      let largeNumber = 9007199254740991n;
+
+3.number:
+    Represents both integer and floating-point numbers. 
+    Examples:
+      let age = 25;
+      let price = 19.99;
+    
+4.null:
+     Represents the intentional absence of any object value. It's a placeholder for an empty value.
+     let bike = null;
+
+5.undefined:
+    Represents a variable that has been declared but not yet assigned a value. It's the default value of a variable.
+
+6.Symbol:
+     Represents a unique and immutable identifier. Symbols are often used as unique property keys for objects to avoid naming collisions.
+     Examples:
+     const id = Symbol('id');
+
+7.boolean:
+     Represents a logical entity and can only have two values: true or false.
+     Examples:
+     let isStudent = true;
+     let hasLicense = false;
+
+Non-primitive
+
+Non-primitive data types, also known as objects, can hold multiple values and are mutable. When you copy a non-primitive value, you're copying the reference to the object, not the object itself.
+
+object:
+    An object in JavaScript is a standalone entity that holds a collection of related data and functionality.
+    Example:
+       let car1 = {
+        color: "blue",
+        make: "Ford",
+        model: "Mustang",
+        startEngine: function () {
+        console.log("Engine started!");
+      },
+    };
+
+
+Arrays:
+    An array is a single variable used to store multiple elements, which are typically of the same data type
+    
+    Example:
+    // Array Literal Notation (Recommended)
+    const fruits = ["Apple", "Banana", "Orange"];
+
+    // Array Constructor
+    const cars = new Array("Ford", "Honda", "Toyota");
