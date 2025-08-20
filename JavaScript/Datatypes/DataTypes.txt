@@ -48,3 +48,30 @@ Primitive data types represent single, immutable values. When you copy a primiti
      Examples:
      let isStudent = true;
      let hasLicense = false;
+
+Non-primitive
+
+Non-primitive data types, also known as objects, can hold multiple values and are mutable. When you copy a non-primitive value, you're copying the reference to the object, not the object itself.
+
+object:
+    An object in JavaScript is a standalone entity that holds a collection of related data and functionality.
+    Example:
+       let car1 = {
+        color: "blue",
+        make: "Ford",
+        model: "Mustang",
+        startEngine: function () {
+        console.log("Engine started!");
+      },
+    };
+
+
+Arrays:
+    An array is a single variable used to store multiple elements, which are typically of the same data type
+    
+    Example:
+    // Array Literal Notation (Recommended)
+    const fruits = ["Apple", "Banana", "Orange"];
+
+    // Array Constructor
+    const cars = new Array("Ford", "Honda", "Toyota");
