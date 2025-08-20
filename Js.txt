@@ -1,0 +1,124 @@
+Java Script
+Phase 1: Foundational Concepts (Weeks 1–3)
+
+👉 Goal: Build a strong understanding of JS basics.
+
+Week 1: Introduction & Basics
+1.1 What is JavaScript, History, Environment Setup
+2.1 Declaring Variables (var, let, const)
+2.2 Primitive Data Types
+2.3 Reference Data Types/Non Pimitive Data Types
+2.4 Type Conversion & Type Coercion
+3.1 Arithmetic, Assignment Operators
+
+Week 2: Control Flow & Functions
+
+3.2 Comparison & Logical Operators
+3.3 Conditional (Ternary) Operator
+4.1 Conditional Statements (if, else if, else)
+4.2 switch Statement
+4.3 Loops (for, while, do-while, for...of, for...in)
+5.1 Function Declarations & Expressions
+5.2 Parameters & Return Values
+5.3 Arrow Functions
+
+Week 3: Objects & Arrays
+
+5.4 Default & Rest Parameters
+5.5 Higher-Order Functions
+6.1 Creating and Accessing Objects
+6.2 Modifying & Deleting Properties
+6.3 Arrays: Creation, Indexing, Iteration
+6.4 Common Array Methods (map, filter, reduce)
+6.5 Nested Objects and Arrays
+
+Phase 2: Intermediate Topics (Weeks 4–6)
+
+👉 Goal: Build interactive and dynamic web applications.
+Week 4: DOM Manipulation
+
+7.1 DOM Tree Structure
+7.2 Selecting Elements (getElementById, querySelector)
+7.3 Modifying Content & Attributes
+7.4 Styling & Class Manipulation
+7.5 Creating & Removing Elements
+
+
+Week 5: Events & Async Basics
+
+8.1 Introduction to Events
+8.2 Event Listeners (addEventListener)
+8.3 Common Events (click, keypress, submit)
+8.4 Event Bubbling & Capturing
+8.5 Event Delegation
+9.1 Synchronous vs. Asynchronous Execution
+9.2 Callbacks
+
+
+Week 6: Promises & ES6+
+
+9.3 Promises
+9.4 async and await
+9.5 Fetch API & AJAX
+10.1 Template Literals
+10.2 Destructuring Assignment
+10.3 Spread & Rest Operators
+10.4 Default Parameters
+10.5 Modules (import, export)
+
+Phase 3: Advanced Concepts (Weeks 7–9)
+
+👉 Goal: Master advanced JavaScript features & coding patterns.
+
+Week 7: OOP in JavaScript
+
+12.1 Classes & Objects
+12.2 Constructors & Methods
+12.3 Inheritance
+12.4 Encapsulation & Abstraction
+12.5 Polymorphism
+
+Week 8: Prototypes, Closures, Scope
+
+13.1 Prototype Chain
+13.2 __proto__ & Object.getPrototypeOf
+13.3 Prototype vs. Class Inheritance
+13.4 Extending Built-in Objects
+14.1 Lexical Scope
+14.2 Closure Definition & Examples
+14.3 Closure Use Cases (Privacy, Factories)
+15.1 Global, Local, Block Scope
+15.2 Variable & Function Hoisting
+
+Week 9: Data Structures & Algorithms
+
+16.1 Arrays, Stacks, Queues
+16.2 Linked Lists
+16.3 Hash Tables (Objects, Maps, Sets)
+16.4 Trees & Graphs (Intro)
+16.5 Searching Algorithms (Linear, Binary)
+16.6 Sorting Algorithms (Bubble, Merge, Quick)
+
+Phase 4: Expert-Level (Weeks 10–12)
+
+👉 Goal: Go beyond the basics – write professional & optimized JS.
+
+Week 10: Functional Programming
+
+17.1 Pure Functions
+17.2 Immutability
+17.3 Currying & Partial Application
+17.4 Function Composition
+
+Week 11: Memory & Performance
+
+18.1 Garbage Collection in JS
+18.2 Memory Leaks & Prevention
+18.3 Optimizing Loops & DOM Manipulation
+
+Week 12: Modern JS Development
+
+19.1 Node.js Basics
+19.2 NPM & Package Management
+19.3 Bundlers (Webpack, Vite, Parcel)
+19.4 Transpilers (Babel, TypeScript Basics)
