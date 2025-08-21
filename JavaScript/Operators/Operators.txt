@@ -1,0 +1,58 @@
+Operators
+
+Operators are special symbols used to perform operations on values and variables. 
+
+Arithmetic Operators:
+
+These operators perform mathematical calculations.
+
+Operator	Description	                Example	        Result
++	           Addition	                10 + 5      	15
+-	           Subtraction	            10 - 5      	5
+*	           Multiplication	        10 * 5      	50
+/	           Division	                10 / 5      	2
+%	           Modulus (Remainder)	    10 % 3      	1
+**	           Exponentiation	        2 ** 3      	8
+++	           Increment (adds 1)	    let a = 5;      a++	a is now 6
+--	           Decrement (subtracts 1)	let b = 5;      b--	b is now 4
+
+Comparison Operators:
+
+These operators compare two values and return a boolean (true or false).
+
+Operator	Description	                Example	        Result
+===	        Strict equal to	            10 === "10"	    false (different data types)
+==	        Equal to (loose comparison)	10 == "10"	    true (due to type coercion)
+!=	        Not equal to (loose)    	10 != "8"	    true
+!==	        Strict not equal to	        10 !== "10"	    true
+>	        Greater than	            10 > 5	        true
+<	        Less than	                10 < 5	        false
+>=	        Greater than or equal to	10 >= 10	    true
+<=	        Less than or equal to	    10 <= 5	        false
+
+Logical Operators
+
+These operators are used to determine the logic between variables or values. They also return a boolean.
+
+Operator	Description	Example	                Result
+&&	        AND	        (5 > 3) && (10 < 20)	true
+!	        NOT	        !(5 == 5)	            false
+
+
+Ternary Operator
+
+The ternary operator is a shorthand way to write an if-else statement. It's the only JavaScript operator that takes three operands.
+
+Syntax: condition ? value_if_true : value_if_false
+
+Bitwise Operators
+
+These operators perform operations on the binary representation of numbers. While less common in general web development, they are useful for specific performance-critical tasks.
+
+Operator	Description
+&	        AND
+|	        OR
+^	        XOR (exclusive OR)
+~	        NOT (inverts all bits)
+<<	        Left shift
+>>	        Right shift                                                       
