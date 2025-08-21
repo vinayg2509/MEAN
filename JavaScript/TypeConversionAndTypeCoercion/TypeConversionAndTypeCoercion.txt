@@ -1,0 +1,34 @@
+
+Type conversion and type coercion are two ways JavaScript handles converting values from one data type to another. 
+
+Type Coercion:
+
+Type coercion is the automatic, implicit conversion of values from one data type to another by the JavaScript engine. This often happens when operators are used with values of different types. JavaScript decides how to perform the conversion to make the operation valid
+
+
+Type Conversion:
+
+Type conversion, also known as type casting, is the manual, explicit conversion of values. You, as the developer, intentionally use built-in JavaScript functions to change the data type. This is generally considered safer and more predictable than coercion because it removes ambiguity.
+
+Common Type Conversion Methods
+1. To String
+
+To convert a value to a string, you can use the String() function or the toString() method.
+
+String(value): This works on any data type, including null and undefined.
+
+let num = 123;
+let strNum = String(num); // "123"
+let value = null;
+let strNull = String(value); // "null"
+
+value.toString(): This method is available on most data types, but it will throw an error if used on null or undefined
+
+let bool = true;
+let strBool = bool.toString(); // "true"
+let arr = [1, 2, 3];
+let strArr = arr.toString(); // "1,2,3"
+
+2. To Number
+To convert a value to a number, you can use Number(), parseInt(), or parseFloat().
+Number(value): This is the most direct way to convert a value. It's strict and will return NaN (Not a Number) if the value is not a valid number.
