@@ -1,0 +1,41 @@
+                                                    Control flow and decisions statements:
+
+Control flow is the order in which a program's statements are executed. It's how you tell a program to make decisions, repeat actions, or jump to a different part of the code based on certain conditions.
+
+1)Simple if:
+
+A simple if statement is used to execute a block of code only if a specified condition is true.
+
+2)if else if
+
+This is the most common form of conditional logic.
+if: Executes a block of code if the specified condition is true.
+else if: Provides an alternative condition to check if the first if condition is false. You can have multiple else if blocks.
+else: Executes a block of code if all preceding if and else if conditions are false
+
+3)switch
+A switch statement is an alternative to a long if...else if chain when you have a single expression to compare against multiple possible values.
+
+
+4)if-else
+An if-else statement is a conditional control structure that executes a block of code based on whether a specified condition is true or false. It's a fundamental tool for making decisions in your code.
+
+Control flow
+
+Loops are used to execute a block of code repeatedly as long as a certain condition is met.
+
+For Loop
+A for loop is used when you know exactly how many times you want to loop. It has three parts:
+Initialization: A statement executed once before the loop begins.
+Condition: The condition that is checked before each loop iteration. The loop continues as long as this condition is true.
+ Increment/Decrement: A statement executed after each iteration.
+  
+
+While Loop
+A while loop executes a block of code as long as a specified condition is true. It is best used when you don't know exactly how many times the loop will run.
+
+Jump Statements
+
+Jump statements allow you to transfer control to another part of the program.
+break: Jumps out of a loop or switch statement, ending its execution.
+continue: Skips the current iteration of a loop and continues with the next one.
