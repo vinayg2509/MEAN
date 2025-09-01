@@ -76,3 +76,54 @@ greet1();
     
 })
 ()
+
+// ! Parameters & Return Values
+// 'width' and 'height' are parameters
+function calculateArea(width = 1, height = 1) { 
+  return width * height;
+}
+// 10 and 5 are arguments passed to the parameters
+let area = calculateArea(10, 5); 
+console.log(area); // Output: 50
+
+let defaultArea = calculateArea();
+console.log(defaultArea); // Output: 1 (since no arguments were passed)
+
+// !Return Values
+
+function getFullName(firstName, lastName) {
+  // The 'return' statement sends back the full name
+  return firstName + " " + lastName; 
+  console.log("This line will not be executed."); // Unreachable code
+}
+
+let fullName = getFullName("Alice", "Smith");
+console.log(fullName); // Output: "Alice Smith"
+
+// ! Arrow Functions
+// ^ 1.No parameters
+
+const sayHello1 = () => console.log("Hello!");
+sayHello1()
+
+// ^ 2.Single parameter (no parentheses needed)
+const square =x=>x*x
+console.log(square(2));
+
+// ^ 3.Multiple parameters
+const product=(a,b)=>a*b
+console.log(product(2,3));
+
+// ^ 4.With block body (when more than one statement is needed)
+const greet2 = (name) => {
+  console.log("Hello, " + name);
+  return "Welcome!";
+};
+
+greet2("Vinay")
+
+// ^ 5.Returning objects
+
+const getUser = () => ({ id: 1, name: "Vinay" });
+console.log(getUser);
+
